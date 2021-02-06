@@ -2,10 +2,47 @@
 <html>
     <head>
         <title>My first page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1 class="h">This is my first heading</h1>
-        <p>This is my paragraph</p>
+        <div class="modal fade" id="loader" tabindex="-1" role="dialog" aria-hidden="false">
+            <div class="modal-dialog modal-dialog-centered justify-content-center" role="document">
+                <div class="spinner-border text-white" role="status" style="width: 10rem;height: 10rem">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="allQuestions">
+<!--
+            <div class="d-flex justify-content-center align-items-center vh-100">
+                <div class="card">
+                    <div class="card-header py-4 px-5">
+                        <h2 id="question"></h2>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" class="text-center">
+                            <div class="form-group">
+                                <label for="answer">Answer</label>
+                                <input type="text" class="form-control" id="answer" placeholder="Your Answer">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <div class="btn-group w-100" role="group">
+                            <button type="button" class="btn btn-outline-secondary">Previous</button>
+                            <button type="button" class="btn btn-outline-dark">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
     </body>
 </html>
