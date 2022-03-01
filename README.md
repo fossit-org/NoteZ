@@ -1,13 +1,27 @@
-# pgdav_notes
+# NoteZ
 
-A simple portal for and by the students at PGDAV College (Evening), studying in Bachelor of Arts Programme (B.A Prog).
-
+A simple go-to portal for and by the students.
 
 ---
 
 ## About this project
 This is a simple learner's project to understand web development and computer science in general. The scope of the project revolves around providing a simple interface to college students to interact and access various resources necessary to study in this programme.
 
+If you want some insights, we will be doing the following:
+
+- Using GitHub to collaborate on code written by others
+- Learn to integrate backend and frontend
+- Make a functional web app from scratch and deploy it on a server 
+- Learn the fundamentals of server management
+
+We will develop using the following languages / libraries:
+
+- HTML
+- SCSS with bootstrap 
+- JavaScript 
+- jQuery
+- PHP
+- MySQL
 
 ## Features
 - Student lists and profile with basic info
